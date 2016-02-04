@@ -1,0 +1,70 @@
+/**
+ * astute splashpage
+ */
+
+/**
+ * Color pallete
+ *   - light blue: #3498DB;
+ *   - blue: #2980B9;
+ *   - dark-blue: #34495E;
+ */
+
+// via http://meyerweb.com/eric/tools/css/reset/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:100%;
+  font:inherit;
+  vertical-align:baseline;
+}
+
+html, body{
+  height:100%;
+  font-family: Avenir;
+}
+
+.white { color: #FFF }
+.light-blue { color: #3498DB; }
+.blue { color: #2980B9; }
+.dark-blue { color: #34495E; }
+
+.bg-light-blue { background-color: #3498DB; }
+.bg-blue { background-color: #2980B9; }
+.bg-dark-blue { background-color: #34495E; }
+
+.col4 {
+  float: left;
+  width: 33.33333333%
+}
+.col8 {
+  float: left;
+  width: 66.66666666%;
+}
+
+.border-right-blue { border-right: 1px solid #34495E; }
+
+.full-height { height: 100%; }
+.full-width { width: 100%; }
+
+#screenshot { width: 70%; }
+
+.large { font-size: 4em; }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

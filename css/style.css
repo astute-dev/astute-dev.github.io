@@ -63,6 +63,7 @@ html, body{
 
 #screenshot { width: 70%; }
 
+.medium { font-size: 1.2em; }
 .large { font-size: 4em; }
 
 .center-text { text-align: center; }
@@ -87,3 +88,11 @@ html, body{
 
 .pt5 { padding-top: 50px; }
 
+.clearfix { display: block; }
+.clearfix:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}

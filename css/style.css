@@ -96,3 +96,15 @@ html, body{
   clear: both;
   visibility: hidden;
 }
+
+#screenshot {
+  display: inline block;
+  vertical-align: middle;
+}
+
+video{
+  height: 100%;
+  position: absolute;
+  display: block;
+  z-index: -100;
+}

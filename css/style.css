@@ -47,6 +47,7 @@ html, body{
 .bg-light-blue { background-color: #3498DB; }
 .bg-blue       { background-color: #2980B9; }
 .bg-dark-blue  { background-color: #34495E; }
+.bg-image      { background-image: url("../img/background.png");}
 .bg-blue-translucent { background-color: rgba(41,128,185, 0.5) }
 
 .col4 { float: left; width: 33.33333333% }

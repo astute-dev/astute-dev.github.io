@@ -39,16 +39,13 @@ html, body{
   font-family: Avenir;
 }
 
-.white { color: #FFF }
+.white      { color: #FFF }
 .light-blue { color: #3498DB; }
 .blue       { color: #2980B9; }
 .dark-blue  { color: #34495E; }
 
-.bg-light-blue { background-color: #3498DB; }
-.bg-blue       { background-color: #2980B9; }
-.bg-dark-blue  { background-color: #34495E; }
-.bg-image      { background-image: url("../img/background.png");}
-.bg-blue-translucent { background-color: rgba(41,128,185, 0.5) }
+.bg-image              { background-image: url('../img/background.png');}
+.bg-purple-translucent { background-color: rgba(127, 125, 160, 0.8); }
 
 .col4 { float: left; width: 33.33333333% }
 .col8 { float: left; width: 66.66666666%; }
@@ -60,12 +57,12 @@ html, body{
 .border-right-blue { border-right: 1px solid #34495E; }
 
 .full-height { height: 100%; }
-.full-width { width: 100%; }
+.full-width  { width: 100%; }
 
 #screenshot { width: 70%; }
 
 .medium { font-size: 1.2em; }
-.large { font-size: 4em; }
+.large  { font-size:   4em; }
 
 .center-text { text-align: center; }
 .center {
